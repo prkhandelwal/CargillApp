@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Cargill</h1>
+    <p class="lead">This is the survelliance management client</p>
+    <p><a href="" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Add Employees</h2>
+        <p>
+            Add Emplyee Records to Manange and Monitor.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("Index","AUsers")">Add Employees &raquo;</a></p>
+    </div>
+    <div class="col-md-6">
+        <h2>Add Events</h2>
+        <p>Add Events To be triggered for specific situations</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index","AEvents")">Add Events &raquo;</a></p>
+    </div>
+
+</div>
